@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="400.0" spacing="16.0" stylesheets="@base.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.DelayController">
+   <children>
+      <Slider fx:id="delaySlider" blockIncrement="1.0" majorTickUnit="1.0" max="10.0" maxHeight="1.7976931348623157E308" minorTickCount="4" showTickLabels="true" showTickMarks="true" HBox.hgrow="ALWAYS" />
+   </children>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</HBox>
